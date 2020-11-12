@@ -1,0 +1,29 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "mspOfferName": {
+            "value": "Modality MAZ Test"
+        },
+        "mspOfferDescription": {
+            "value": "Modality MAZ for testing only"
+        },
+        "managedByTenantId": {
+            "value": "79d0925f-c43c-49d9-ba43-fc556c55104f"
+        },
+        "authorizations": {
+            "value": [
+                {
+                    "principalId": "cf1ce3bc-473e-4d53-aa4e-8e28d357a86e",
+                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
+                    "principalIdDisplayName": "Modality LH Support Team"
+                },
+                {
+                    "principalId": "3e59d62b-c7ac-4146-afef-0a3c6915670c",
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
+                    "principalIdDisplayName": "Modality LH Escalation Teams"
+                }
+            ]
+        }
+    }
+}
