@@ -7,21 +7,21 @@
             "metadata": {
                 "description": "Specify a unique name for your offer"
             },
-            "defaultValue": "<to be filled out by MSP> Specify a title for your offer"
+            "defaultValue": "Modality MAZ Test"
         },
         "mspOfferDescription": {
             "type": "string",
             "metadata": {
                 "description": "Name of the Managed Service Provider offering"
             },
-            "defaultValue": "<to be filled out by MSP> Provide a brief description of your offer"
+            "defaultValue": "Modality MAZ for testing only"
         },
         "managedByTenantId": {
             "type": "string",
             "metadata": {
                 "description": "Specify the tenant id of the Managed Service Provider"
             },
-            "defaultValue": "<to be filled out by MSP> Provide your tenant id"
+            "defaultValue": "79d0925f-c43c-49d9-ba43-fc556c55104f"
         },
         "authorizations": {
             "type": "array",
@@ -30,14 +30,14 @@
             },
             "defaultValue": [
                 {
-                    "principalId": "ee8f6d35-15f2-4252-b1b8-591358e8a244",
+                    "principalId": "cf1ce3bc-473e-4d53-aa4e-8e28d357a86e",
                     "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
-                    "principalIdDisplayName": "PIM_Group"
+                    "principalIdDisplayName": "Modality LH Support Team"
                 },
                 {
-                    "principalId": "ee8f6d35-15f2-4252-b1b8-591358e8a244",
-                    "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
-                    "principalIdDisplayName": "PIM_Group"
+                    "principalId": "3e59d62b-c7ac-4146-afef-0a3c6915670c",
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
+                    "principalIdDisplayName": "Modality LH Escalation Teams"
                 }
             ]
         }
