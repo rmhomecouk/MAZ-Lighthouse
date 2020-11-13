@@ -6,7 +6,7 @@
 
 This offering will provide two security groups with access to your subscription:
 
-1. "Modality LH Support Team" - This group has read only right to resources within your subscription
+1. "Modality LH Support Team" - This group has read only rights to resources within your subscription
 
 2. "Modality LH Escalations Team" - This has had contributor rights to the resources within you subscription
 
