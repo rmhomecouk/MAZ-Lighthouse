@@ -2,7 +2,7 @@
 
 
 
-## Lighthouse Test 1
+## Lighthouse MAZ Gold
 
 This offering will provide two security groups with access to your subscription:
 
@@ -13,3 +13,6 @@ This offering will provide two security groups with access to your subscription:
 As part of the deployment you will be asked to select a subscription - Please note this is the subscription that you want us to manage. If you have more than one subscription you can deploy to each subscrtipion by reclicking the deploy button.
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Frmhomecouk%2FMAZ-Lighthouse%2Fmain%2FTest1%2Ftemplate.json)
+
+
+
